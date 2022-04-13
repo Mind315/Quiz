@@ -2,7 +2,7 @@
 
 link:
 ------
-https://mind315.github.io/change-bg-links/
+https://mind315.github.io/Quiz/
 
 Technologies:
 ------
