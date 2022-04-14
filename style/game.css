@@ -85,7 +85,7 @@ body {
         width: auto;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     h1 {
         font-size: 3rem;
     }
@@ -94,5 +94,20 @@ body {
     }
     .choice-text {
         padding-left: 1rem;
+    }
+    .choice-prefix {
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 460px) {
+    .choice-container {
+        min-width: 28rem;
+    }
+    .choice-text {
+        padding-left: 0.5rem;
+    }
+    .choice-prefix {
+        padding: 2rem 2rem;
     }
 }
