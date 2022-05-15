@@ -4,6 +4,7 @@ body {
 
 #question {
     width: 900px;
+    user-select: none;
 }
 .choice-container {
     display: flex;
@@ -30,6 +31,7 @@ body {
 .choice-text {
     padding: 2rem;
     width: 100%;
+    user-select: none;
 }
 
 .correct {
